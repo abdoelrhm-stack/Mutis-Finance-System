@@ -1,0 +1,26 @@
+{
+  "name": "mutis-finance-system",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Mutis Finance System (MFS) — aplikasi internal manajemen pembiayaan Mutis Finance.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "lucide-react": "^0.383.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.12.7",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
